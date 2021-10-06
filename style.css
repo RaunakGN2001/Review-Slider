@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: cornflowerblue;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container_heading {
+  margin-bottom: 1em;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.review_section {
+  background-color: white;
+  width: 45vw;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.review_section_name {
+  text-align: center;
+  padding-top: 1em;
+  font-weight: 500;
+  font-size: 30px;
+  color: cornflowerblue;
+}
+.review_section_occp {
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+  margin-bottom: 2em;
+}
+.review_section_info {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-weight: 300;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.prev_button {
+  margin-right: 0.5em;
+  padding: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 2px;
+}
+
+.next_button {
+  margin-right: 0.5em;
+  padding: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  border-radius: 2px;
+}
+
+.button {
+  transition: 200ms ease-in-out;
+  font-weight: 500;
+  font-size: 19px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.button:hover {
+  background-color: rgb(108, 159, 255);
+  cursor: pointer;
+}
